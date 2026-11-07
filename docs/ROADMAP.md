@@ -16,13 +16,17 @@
 
 - Un chatBot que pueda entender un problema y traducirlo en una instancia de la clase problema
 
-## WebSockets:
+## WebSockets y HTTP + AnimationBUffer:
 
 - Sería muy interesante que se pueda crear el arbol en vivo con el servidor
 
 - Usar opciones de velocidad de creación baja, media e instantanea
 
 - Usar opción de simular y poner botón pausar, devolver avanzar bueno dar esa funcionalidad de que se construya paso a paso
+
+- modo en vivo con webSockets para ver latencia de red procesador
+
+- modo educativo con http y animationBuffer
 
 ## Deslpiegue:
 

@@ -13,12 +13,12 @@ document.getElementById("algoSelect").addEventListener('change', function(e){
 
 // Intercepción envío formulario
 
-document.getElementById('SearchForm').addEventListener('submit', async function(e) {
+document.getElementById('searchForm').addEventListener('submit', async function(e) {
 
         e.preventDefault(); // evita que la página recargue
 
         // Recolección datos del formulario
-        const playload = {
+        const payload = {
             problem: document.getElementById('problemSelect').value,
             algorithm: document.getElementById('algoSelect').value,
             control: parseInt(document.getElementById('controlSelect').value),

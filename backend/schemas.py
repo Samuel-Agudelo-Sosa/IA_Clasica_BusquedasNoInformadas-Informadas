@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import Optional, Literal
+from typing import Optional, List, Literal
 
 class SearchRequest(BaseModel):
     problem: str = Field(..., description="Nombre del problema a resolver")
@@ -13,4 +13,5 @@ class SearchResponse(BaseModel):
     path_cost: Optional[float] = None
     evaluated_nodes: int
     steps: Optional[int] = None
+    path: Optional[List[str]] = Field(default_factory=list, description="Lista de acciones de la solución")
     message: str

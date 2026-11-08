@@ -5,7 +5,8 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from Node import Node
 from Search import Search
-from SearchAlgorithms.DLS import DLS
+
+from backend.core.SearchAlgorithms.DLS import DLS
 
 
 class  IDFS(Search):

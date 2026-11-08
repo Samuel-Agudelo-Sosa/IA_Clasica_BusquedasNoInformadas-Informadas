@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from BestFirstSearch import BestFirstSearch
+from backend.core.SearchAlgorithms.BestFirstSearch import BestFirstSearch
 
 class AStar(BestFirstSearch):
 
